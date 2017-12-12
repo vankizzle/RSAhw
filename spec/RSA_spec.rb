@@ -1,4 +1,5 @@
 require 'rails_helper'
+require_relative '../lib/RSA'
 
 RSpec.describe RomeConverter do
   	 it "should return the correct N" do
